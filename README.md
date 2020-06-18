@@ -33,14 +33,14 @@ THEN the password is either displayed in an alert or written to the page
 ```
 
 ## Task List
-- [✅] Prompted for uppercase and lowercase letters.
-- [✅] Prompted for numbers.
-- [✅] Prompted for symbols.
-- [✅] Password length <u>must be</u> between 8 to 128 characters.
-- [✅] Password generated matches the criteria selected by the user.
-- [✅x] Password is displayed in text and could be copied.
+- ✅ Prompted for uppercase and lowercase letters.
+- ✅ Prompted for numbers.
+- ✅ Prompted for symbols.
+- ✅ Password length <u>must be</u> between 8 to 128 characters.
+- ✅ Password generated matches the criteria selected by the user.
+- ✅ Password is displayed in text and could be copied.
 - <b>Bonus</b>
-- [🚀] Clipboard button included for easy copy. 
+- 🚀 Clipboard button included for easy copy. 
 
 ## Preview 
 Visit the site [here](https://eddyangang.github.io/password_generator_v2/).
