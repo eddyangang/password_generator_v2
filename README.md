@@ -2,7 +2,7 @@
 
 ## Objective
 
-To create an automatic password generator based on <u>User</u> needs. 
+To create an automatic password generator based on *_User_* needs. 
 
 ## User Story
 
@@ -33,15 +33,16 @@ THEN the password is either displayed in an alert or written to the page
 ```
 
 ## Task List
-- [x] Prompted for uppercase and lowercase letters.
-- [x] Prompted for numbers.
-- [x] Prompted for symbols.
-- [x] Password length <u>must be</u> between 8 to 128 characters.
-- [x] Password generated matches the criteria selected by the user.
-- [x] Password is displayed in text and could be copied.
+- [✅] Prompted for uppercase and lowercase letters.
+- [✅] Prompted for numbers.
+- [✅] Prompted for symbols.
+- [✅] Password length <u>must be</u> between 8 to 128 characters.
+- [✅] Password generated matches the criteria selected by the user.
+- [✅x] Password is displayed in text and could be copied.
 - <b>Bonus</b>
-- [x] Clipboard button included for easy copy. 
+- [🚀] Clipboard button included for easy copy. 
 
 ## Preview 
+Visit the site [here](https://eddyangang.github.io/password_generator_v2/).
 
 !["A demonstration of password generator"](assets/preview.gif)
