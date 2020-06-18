@@ -38,11 +38,13 @@ function generatePassword(characterAmount, includeUppercase, includeLowercase, i
     if (includeNumbers) charCodes = charCodes.concat(number_char_code);
     if (includeSymbols) charCodes = charCodes.concat(symbol_char_code);
 
-    const passwordCharacters = [];
+    let passwordCharacters = [];
     for (let i = 0; i < characterAmount; i++) {
-        const characterCode = charCodes[Math.floor(Math.random() * charCodes.length)]
+        let characterCode = charCodes[Math.round(Math.random() * charCodes.length)]
         passwordCharacters.push(String.fromCharCode(characterCode));
     }
+    console.log(charCodes.length);
+    
     return passwordCharacters.join('');
 }
 
